@@ -14,8 +14,7 @@ public class AvlApplication {
 
 		avl.inserir(10).inserir(2).inserir(6).inserir(8).inserir(25)
 				.inserir(18).inserir(35).inserir(15).inserir(22).inserir(42)
-				.inserir(30).inserir(40).inserir(12).inserir(17).inserir(19)
-				.inserir(24).inserir(28).inserir(33).inserir(38);
+				.inserir(30).inserir(40).inserir(12).inserir(17).inserir(19);
 
 		avl.percorrer();
 		System.out.println("maior no: " + avl.noMax());
